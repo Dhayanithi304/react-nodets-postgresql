@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "lib": ["ES6"],
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "typeRoots": ["node_modules/@types", "src/types"],
+      "types": ["node"]
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/types/*.d.ts"  // Ensure this includes the types folder
+    ],
+    "exclude": ["node_modules", "dist"]
+  }
+  
