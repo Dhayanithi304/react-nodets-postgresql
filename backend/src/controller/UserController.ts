@@ -128,7 +128,7 @@ const create_user2 = async (req: Request, res: Response) => {
         name,
         result: null
       },
-      type: sequelize.QueryTypes.RAW
+      // type: seq.QueryTypes.RAW
     }) 
 
     // Return response
