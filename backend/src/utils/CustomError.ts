@@ -8,7 +8,7 @@ export class CustomError extends Error {
     }
   }
   
-  // Specific Error Types
+  // Specific Error Types 
   export class AuthError extends CustomError {
     constructor(message = "Unauthorized Access") {
       super(message, 401);
